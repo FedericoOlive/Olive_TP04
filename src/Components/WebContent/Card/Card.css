@@ -1,0 +1,75 @@
+.Card::before
+{
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    background: linear-gradient(135deg, #ff93cd, #a09df1);
+    filter: blur(15px);
+    z-index: -2;
+    border-radius: inherit;
+}
+
+.Card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 20px;
+    overflow: hidden;
+    z-index: -1;
+    height: 250px;
+    box-shadow: rgba(43, 43, 43, 0.1) 5px 5px 1px;
+}
+
+.Card .HorizontalLayout
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.CardImage
+{
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.Card .VerticalLayout
+{
+    display: grid;
+}
+
+.Card h1
+{
+    text-align: center;
+    color: black;
+}
+
+.Card h3
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.Card hr
+{
+    margin-top: auto;
+    border: 0;
+    border-top: 2px solid #0000ff;
+    width: 100%;
+}
+
+.Card .Description
+{
+    margin-top: 10px;
+}

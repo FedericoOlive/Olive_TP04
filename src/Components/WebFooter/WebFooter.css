@@ -1,0 +1,19 @@
+.WebFooter
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: gray;
+    color: white;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;    /*Es igual a <small></small>*/
+    border-radius: 5px;
+}
+
+.WebFooter footer
+{
+    padding-left: 10px;
+    
+}
