@@ -35,6 +35,9 @@
 
 .Card h1
 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     text-align: center;
     color: black;
 }
