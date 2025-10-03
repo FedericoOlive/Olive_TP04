@@ -1,28 +1,12 @@
-.Card::before
-{
-    content: "";
-    position: absolute;
-    left: -5px;
-    right: -5px;
-    top: -5px;
-    bottom: -5px;
-    background: linear-gradient(135deg, #ff93cd, #a09df1);
-    filter: blur(15px);
-    z-index: -2;
-    border-radius: inherit;
-}
-
 .Card
 {
     position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
-    background: #ffffff;
     padding: 20px;
-    overflow: hidden;
-    z-index: -1;
-    height: 250px;
+    height: 200px;
+    background: linear-gradient(135deg, #ff93cd, #a09df1);
     box-shadow: rgba(43, 43, 43, 0.1) 5px 5px 1px;
 }
 
