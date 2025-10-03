@@ -1,16 +1,30 @@
-# React + Vite
+[![GitHub](https://img.shields.io/badge/Repositorio-GitHub-lightgrey?style=flat-square)](https://github.com/FedericoOlive/Olive_TP04)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tarjetas de Presentación en React
 
-Currently, two official plugins are available:
+Proyecto realizado para la **Unidad 4 - Módulo 1**: Primera práctica con **React + Vite** 🚀.  
+La idea fue crear un **componente reutilizable de tarjeta de presentación** que recibe props (nombre, profesión, imagen y descripción).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tecnologías usadas
+- [React](https://react.dev/) ⚛️
+- [Vite](https://vitejs.dev/) ⚡
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Cómo correr este proyecto
+Cloná el repo y levantalo en tu máquina con estos pasos:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clonar el repositorio
+git clone https://github.com/FedericoOlive/Olive_TP04.git
+
+# Entrar a la carpeta del proyecto
+cd Olive_TP04
+
+# Instalar dependencias
+npm install
+
+# Correr el servidor de desarrollo
+npm run dev
